@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  flex-direction: column;
 
 }
 
@@ -43,8 +44,12 @@ line-height: 5;
   font-size: 2rem;  
 }
 
-.name {
-  font-size: 3rem;  
+#name {
+  font-size: 4rem;  
   font-family:'Gochi Hand', cursive;
-  line-height: 2.5;
+  line-height: 2;
+}
+
+.input {
+margin: 20px;
 }
